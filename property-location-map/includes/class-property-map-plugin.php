@@ -15,7 +15,7 @@ class Property_Map_Plugin
      */
     public function __construct()
     {
-        $this->google_maps_api_key = 'AIzaSyD_rAbuWUFYpc_HGxeeabXF7fzQSF1U6wg';
+        $this->google_maps_api_key = 'xxxxxxxxxxxxxxxxxxxxxx';
 
         add_action('wp_enqueue_scripts', array($this, 'enqueue_google_maps')); // Enqueue Google Maps script
         add_shortcode('property_map', array($this, 'property_map_shortcode')); // Shortcode to display mapS
